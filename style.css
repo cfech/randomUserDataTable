@@ -1,0 +1,31 @@
+.cont{
+    width: 85%;
+    margin: auto;
+    border: 2px solid #eee;
+    box-shadow: 4px 2px 4px gray;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #d9b08c;
+    /* background-color: #116466; */
+}
+
+#peopleTableBody{
+    padding: 5px;
+}
+
+.explanation{
+    width: 85%;
+    margin: 20px auto;
+    border: 2px solid #eee;
+    box-shadow: 4px 2px 4px gray;
+    overflow-x: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #d1e8e2;
+    
+}
+
+body{
+   
+    background-color: #2c3531;
+}

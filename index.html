@@ -15,9 +15,66 @@
     <div class="cont">
         <div class="explanation">
             <h2>This is a demo project to get familiar with jQuery DataTables</h2>
-            <p>All data sourced from: <a href="https://randomuser.me/" >https://randomuser.me/</a></p>
+            <p>All data sourced from: <a href="https://randomuser.me/">https://randomuser.me/</a></p>
         </div>
-        <table id="table_id" class="display hover order-column stripe cell-border">
+
+
+        <!-- <table id="example" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Gender</th>
+                    <th>City </th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th>Gender</th>
+                    <th>City</th>
+                </tr>
+            </tfoot>
+        </table> -->
+
+        
+        <table id="peopleTable" class="display hover order-column stripe cell-border">
+            <thead>
+                <tr>
+                                         <th></th>
+                    <th>Title</th>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th style="display: none;">Street</th>
+                    <th style="display: none;"  >City</th>
+                    <th style="display: none;">State</th>
+                    <th>Country</th>
+                    <th>ZipCode</th>
+                    <th style="display: none;"  >Image</th>
+                </tr>
+            </thead>
+            <tbody id="peopleTableBody">
+            </tbody>
+            <tfoot>
+                                    <th></th>
+                <th>Title</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th style="display: none;">Street</th>
+                <th style="display: none;"  >City</th>
+                <th style="display: none;">State</th>
+                <th>Country</th>
+                <th>ZipCode</th>
+                <th style="display: none;"  >Image</th>
+            </tfoot>
+        </table>
+
+        <!-- <table id="peopleTable2" class="display hover order-column stripe cell-border">
             <thead>
                 <tr>
                     <th>Tile</th>
@@ -33,7 +90,7 @@
                     <th>ZipCode</th>
                 </tr>
             </thead>
-            <tbody id="peopleTableBody">
+            <tbody id="peopleTableBody2">
             </tbody>
             <tfoot>
                 <th>Tile</th>
@@ -48,14 +105,17 @@
                 <th>Country</th>
                 <th>ZipCode</th>
             </tfoot>
-        </table>
+        </table> -->
+
     </div>
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
         integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" charset="utf8"
         src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+    <!-- <script src="js2.js"></script> -->
     <script src="js.js"></script>
 </body>
 
